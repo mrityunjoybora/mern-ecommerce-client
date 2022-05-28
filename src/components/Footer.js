@@ -10,8 +10,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex md:flex-row flex-col justify-between items-start">
-      <div className="flex-1 flex flex-col p-6 md:sm:pb-10 gap-4">
+    <div className="flex md:flex-row flex-col justify-between items-start py-6 px-8">
+      <div className="flex-1 flex flex-col md:p-10 p-6 md:pb-10 gap-4">
         <p className="text-4xl font-extrabold">BORACOM</p>
         <p>
           There are many variations of passages of Lorem Ipsum available, but
