@@ -10,9 +10,9 @@ function Header() {
             <span>EN</span>
             <ArrowDropDown className="cursor-pointer" />
           </div>
-          <div className="flex gap-2 items-center md:border-2">
+          <div className="flex gap-2 items-center border-2">
             <input
-              className="outline-none px-2 py-1 w-[50%] md:block"
+              className="outline-none px-2 py-1 sm:w-auto w-full md:block"
               type="text"
               placeholder="Search"
             />
