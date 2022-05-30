@@ -2,7 +2,7 @@ import React from "react";
 
 function CategoryItem({ item }) {
   return (
-    <div className="relative h-[90vh]">
+    <div className="relative w-full h-[30vh] sm:h-[90vh]">
       <img className="object-cover h-full w-full" src={item.img} alt="" />
       <div className="absolute flex flex-col items-center justify-center h-full w-full top-0  m-auto">
         <p className="text-white mb-5">{item.title}</p>
